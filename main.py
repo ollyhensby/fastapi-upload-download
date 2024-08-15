@@ -28,5 +28,5 @@ def upload_file(uploaded_file: UploadFile = File(...)):
 
 @app.get('/download')
 def download():
-    test_xlsx = pathlib.Path(__file__).parent / "files" / "Uniclass2015_SL_v1_30.xlsx"
+    test_xlsx = pathlib.Path(__file__).parent / "files" / "test.xlsx"
     return FileResponse(path=test_xlsx, media_type="application/octet-stream", filename=test_xlsx.name)
