@@ -1,0 +1,13 @@
+name: fastapi-upload-download
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - fastapi
+  - uvicorn
+  - python-multipart
+  - jupyterlab
+  - pip
+  - pip:
+    - ipyautoui
