@@ -2,6 +2,8 @@
 
 This is just a repository to test the upload and download of files using FastAPI.
 
+Following this guide: https://python.plainenglish.io/file-uploads-and-downloads-in-fastapi-a-comprehensive-guide-06e0b18bb245
+
 ## How To Run?
 
 Create the environment
